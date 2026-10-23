@@ -3,8 +3,8 @@ package hotel.util.map;
 import java.util.ArrayList;
 
 public class MyMap<K, V> implements Map<K, V> {
-    private ArrayList<K> keys;
-    private ArrayList<V> values;
+    private final ArrayList<K> keys = new ArrayList<>();
+    private final ArrayList<V> values = new ArrayList<>();
 
     public boolean put(K key, V value) {
         if (key == null) {
