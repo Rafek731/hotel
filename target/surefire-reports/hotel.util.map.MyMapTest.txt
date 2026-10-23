@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: hotel.util.map.MyMapTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in hotel.util.map.MyMapTest
+containsReflectsPutAndRemove(hotel.util.map.MyMapTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.contains(Object)" because "this.keys" is null
+	at hotel.util.map.MyMapTest.containsReflectsPutAndRemove(MyMapTest.java:43)
+
+getReturnsValueAfterPut(hotel.util.map.MyMapTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.indexOf(Object)" because "this.keys" is null
+	at hotel.util.map.MyMapTest.getReturnsValueAfterPut(MyMapTest.java:22)
+
+putOverwritesExistingKey(hotel.util.map.MyMapTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.indexOf(Object)" because "this.keys" is null
+	at hotel.util.map.MyMapTest.putOverwritesExistingKey(MyMapTest.java:34)
+
+keysReturnsACopy(hotel.util.map.MyMapTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.indexOf(Object)" because "this.keys" is null
+	at hotel.util.map.MyMapTest.keysReturnsACopy(MyMapTest.java:59)
+
+removeReturnsFalseForMissingKey(hotel.util.map.MyMapTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.indexOf(Object)" because "this.keys" is null
+	at hotel.util.map.MyMapTest.removeReturnsFalseForMissingKey(MyMapTest.java:54)
+
+getReturnsNullForMissingKey(hotel.util.map.MyMapTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.indexOf(Object)" because "this.keys" is null
+	at hotel.util.map.MyMapTest.getReturnsNullForMissingKey(MyMapTest.java:29)
+

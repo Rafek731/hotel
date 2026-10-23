@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="hotel.util.map.MyMapTest" time="0.003" tests="8" errors="6" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/rmazur/Studia/programowanie_zaawansowane_1/projekty/hotel/target/test-classes:/home/rmazur/Studia/programowanie_zaawansowane_1/projekty/hotel/target/classes:/home/rmazur/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/rmazur/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Arch Linux"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.org/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-25-openjdk/lib"/>
+    <property name="sun.java.command" value="/home/rmazur/Studia/programowanie_zaawansowane_1/projekty/hotel/target/surefire/surefirebooter10889339072090867128.jar /home/rmazur/Studia/programowanie_zaawansowane_1/projekty/hotel/target/surefire 2026-10-24T00-24-03_633-jvmRun1 surefire1521594103575167699tmp surefire_05540787711287705728tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/rmazur/Studia/programowanie_zaawansowane_1/projekty/hotel/target/test-classes:/home/rmazur/Studia/programowanie_zaawansowane_1/projekty/hotel/target/classes:/home/rmazur/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/rmazur/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/rmazur"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-10-20"/>
+    <property name="java.home" value="/usr/lib/jvm/java-25-openjdk"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/rmazur/Studia/programowanie_zaawansowane_1/projekty/hotel"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/rmazur/Studia/programowanie_zaawansowane_1/projekty/hotel/target/surefire/surefirebooter10889339072090867128.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.5"/>
+    <property name="user.name" value="rmazur"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="7.2.8-9-omarchy"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/rmazur/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="25.0.5"/>
+    <property name="user.dir" value="/home/rmazur/Studia/programowanie_zaawansowane_1/projekty/hotel"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Arch Linux"/>
+    <property name="java.vm.version" value="25.0.5"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="putRejectsNullValue" classname="hotel.util.map.MyMapTest" time="0"/>
+  <testcase name="containsReflectsPutAndRemove" classname="hotel.util.map.MyMapTest" time="0.001">
+    <error message="Cannot invoke &quot;java.util.ArrayList.contains(Object)&quot; because &quot;this.keys&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.contains(Object)" because "this.keys" is null
+	at hotel.util.map.MyMapTest.containsReflectsPutAndRemove(MyMapTest.java:43)
+</error>
+  </testcase>
+  <testcase name="getReturnsValueAfterPut" classname="hotel.util.map.MyMapTest" time="0">
+    <error message="Cannot invoke &quot;java.util.ArrayList.indexOf(Object)&quot; because &quot;this.keys&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.indexOf(Object)" because "this.keys" is null
+	at hotel.util.map.MyMapTest.getReturnsValueAfterPut(MyMapTest.java:22)
+</error>
+  </testcase>
+  <testcase name="putRejectsNullKey" classname="hotel.util.map.MyMapTest" time="0"/>
+  <testcase name="putOverwritesExistingKey" classname="hotel.util.map.MyMapTest" time="0">
+    <error message="Cannot invoke &quot;java.util.ArrayList.indexOf(Object)&quot; because &quot;this.keys&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.indexOf(Object)" because "this.keys" is null
+	at hotel.util.map.MyMapTest.putOverwritesExistingKey(MyMapTest.java:34)
+</error>
+  </testcase>
+  <testcase name="keysReturnsACopy" classname="hotel.util.map.MyMapTest" time="0">
+    <error message="Cannot invoke &quot;java.util.ArrayList.indexOf(Object)&quot; because &quot;this.keys&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.indexOf(Object)" because "this.keys" is null
+	at hotel.util.map.MyMapTest.keysReturnsACopy(MyMapTest.java:59)
+</error>
+  </testcase>
+  <testcase name="removeReturnsFalseForMissingKey" classname="hotel.util.map.MyMapTest" time="0.001">
+    <error message="Cannot invoke &quot;java.util.ArrayList.indexOf(Object)&quot; because &quot;this.keys&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.indexOf(Object)" because "this.keys" is null
+	at hotel.util.map.MyMapTest.removeReturnsFalseForMissingKey(MyMapTest.java:54)
+</error>
+  </testcase>
+  <testcase name="getReturnsNullForMissingKey" classname="hotel.util.map.MyMapTest" time="0">
+    <error message="Cannot invoke &quot;java.util.ArrayList.indexOf(Object)&quot; because &quot;this.keys&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.indexOf(Object)" because "this.keys" is null
+	at hotel.util.map.MyMapTest.getReturnsNullForMissingKey(MyMapTest.java:29)
+</error>
+  </testcase>
+</testsuite>
